@@ -5,6 +5,7 @@ import javax.persistence.Id;
 @Entity
 public class Student {
 	@Id
+	private int s;
 	private long id;
 	private String name;
 	private int testScore;
